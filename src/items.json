@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Book",
+      "price": 10.99,
+      "imgUrl": "https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=754&fit=clip"
+    },
+    {
+      "id": 2,
+      "name": "Computer",
+      "price": 1199,
+      "imgUrl": "https://i.ebayimg.com/images/g/UoIAAOSwwCRh1xNj/s-l1200.webp"
+    },
+    {
+      "id": 3,
+      "name": "Bicycle",
+      "price": 300,
+      "imgUrl": "https://www.goldcoastoutdoorhire.com.au/cdn/shop/products/A06AD56D-78F8-469A-9D65-F106F2450F20.jpg?v=1657864693"
+    },
+    {
+      "id": 4,
+      "name": "Car",
+      "price": 14000,
+      "imgUrl": "https://www.mazda.com.au/4ab27a/globalassets/model-selection-blocks--assets/cx-3-small-suv.png"
+    }
+  ]
