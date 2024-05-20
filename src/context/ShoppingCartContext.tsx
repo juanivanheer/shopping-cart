@@ -30,7 +30,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
   const increaseCartQuantity = (id: number) =>
     setCartItems((current) => {
-      if (current.find((item) => item.id === id) === null) {
+      if (current.find((item) => item.id === id) == null) {
         return [...current, { id, quantity: 1 }];
       } else {
         return current.map((item) => {
@@ -58,9 +58,8 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
       }
     });
 
-  const removeFromCart = (id: number) => {
+  const removeFromCart = (id: number) =>
     setCartItems((current) => current.filter((item) => item.id !== id));
-  };
 
   return (
     <ShoppingCartContext.Provider
