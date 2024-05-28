@@ -1,30 +1,19 @@
-# React + TypeScript + Vite
+# Shopping Cart
+The idea of this basic React project is to demonstrate how a shopping cart works in a real life project in which we are able to add items into the cart using React context and hooks, updating the current state of the application.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![demo1](./public/demo-1.png)
 
-Currently, two official plugins are available:
+![demo2](./public/demo-2.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![demo2](./public/demo-3.png)
 
-## Expanding the ESLint configuration
+The web application was created with **Vite** and has the following dependencies:
+1. react v18.2
+2. bootstrap v5.2
+3. react-bootstrap v2.10
+4. react-router-dom v6.22
+5. typescript v5.2
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
